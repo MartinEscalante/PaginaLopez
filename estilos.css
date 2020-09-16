@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pavanam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+body{
+    margin: 0px auto;
+    padding: 0px;
+}
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.nav-item{
+    margin: 10px;
+}
+.dropdown-item{
+margin-bottom: 15px;
+    
+}
+.dropdown-item:hover{
+    color: white;
+    background-color: rgb(48, 46, 46);
+}
+p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link{
+    color:black
+}
+.nav link:hover{
+    color: black;
+}
+
+.logo-brand{
+    min-width: 190px;
+    max-width: 250px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+
+}
+
+.navbar-toggler{ font-size: 40px;}
+.navbar-toggler:focus{outline: none;}
+
+#hero{
+    background-image: url("./imagenes/lopez.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+.btn1{
+    font-size: 20px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+.contacto{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarx a{
+    padding: 0px;
+    font-size: 20px;
+}
+.navbar-brand{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+.titulo{
+    margin: 0;
+    padding: 0;
+}
+.btn-primary1{
+    padding: 10px;
+    margin: 10px;
+    background-color:ghostwhite;
+    color: black;
+    border: 2px solid ghostwhite;
+    
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-image: url("imagenes/descarga.png");
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color:rgb(100,100,100);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.row-mapa{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    margin: 30px;
+}
+
+.titulo-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.h2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+.h2 h2{
+    color: white;
+    font-size: 40px;
+}
+.informacion-mapa{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+
+}
+.btn-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.btn btn-dark{
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+
+}
+
+/* area societaria */
+.containter-societaria{
+    display: flex;
+    background-image: url("imagenes/lopez.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+#societaria{
+    background-image: url("imagenes/lopez.jpg");
+    background-size: center;
+    background-position: center;
+    padding-top: 90px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color:rgb(100,100,100);
+    color: #ffff;
+
+}
+.center{
+    background-image: url("imagenes/descarga.png");
+    background-size: center;
+    background-position: center;
+    padding-top: 20px;
+    min-height: 300px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color:rgb(100,100,100);
+    color: #ffff;
+}
+
+.contacto-centrar{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    
+
+    
+}
+.contacto-centrar h2{
+    font-family: 'Jomolhari', serif;
+    font-size: 50px;
+}
+
+.contacto-centrar ul{
+    font-family: 'Pavanam', sans-serif;
+    font-size: 20px;
+    list-style: none;
+
+}
+
+@media (max-width: 575.98px) { 
+    h1{
+        font-size: 40px; line-height: normal;
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }
